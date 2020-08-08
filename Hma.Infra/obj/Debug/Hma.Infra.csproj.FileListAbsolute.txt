@@ -1,0 +1,16 @@
+C:\Users\Administrator\source\repos\Hma.Infra\obj\Debug\Hma.Infra.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Hma.Infra\obj\Debug\Hma.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Hma.Infra\bin\Debug\Hma.Infra.dll.config
+C:\Users\Administrator\source\repos\Hma.Infra\bin\Debug\Hma.Infra.dll
+C:\Users\Administrator\source\repos\Hma.Infra\bin\Debug\Hma.Infra.pdb
+C:\Users\Administrator\source\repos\Hma.Infra\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\source\repos\Hma.Infra\bin\Debug\Hma.Core.dll
+C:\Users\Administrator\source\repos\Hma.Infra\bin\Debug\Hma.Core.pdb
+C:\Users\Administrator\source\repos\Hma.Infra\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\source\repos\Hma.Infra\obj\Debug\Hma.Infra.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Hma.Infra\obj\Debug\Hma.Infra.dll
+C:\Users\Administrator\source\repos\Hma.Infra\obj\Debug\Hma.Infra.pdb
+C:\Users\Administrator\source\repos\Hma.Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\source\repos\Hma.Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\source\repos\Hma.Infra\obj\Debug\Hma.Infra.Migrations.InitiaCreate.resources
+C:\Users\Administrator\source\repos\Hma.Infra\obj\Debug\Hma.Infra.csproj.GenerateResource.cache

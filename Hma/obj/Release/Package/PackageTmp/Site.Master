@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Hma.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<link rel="icon" href="hma.png" />
+	<title>Hindi Me Answer</title>
+	<!-- Bootstrap core CSS -->
+	<link href="wwwroot/css/bootstrap.min.css" rel="stylesheet" />
+	<!-- Custom styles for this template -->
+	<link href="wwwroot/css/dashboard.css" rel="stylesheet" />
+	<link href="wwwroot/css/blog.css" rel="stylesheet" />
+	<%--<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>--%>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+			<a class="navbar-brand col-sm-3 col-md-2 mr-0" href="/index.aspx">हिंदी में Answer.com</a>
+			<nav class="nav d-flex justify-content-between">
+				<a class="navbar-link" href="/Sections/world/index.aspx">दुनिया </a>
+				<a class="navbar-link" href="/Sections/india/index.aspx">भारत </a>
+				<a class="navbar-link" href="/Sections/technology/index.aspx">प्रौद्योगिकी </a>
+				<a class="navbar-link" href="/Sections/design/index.aspx">डिज़ाइन </a>
+				<a class="navbar-link" href="/Sections/culture/index.aspx">संस्कृति </a>
+				<a class="navbar-link" href="/Sections/business/index.aspx">व्यापार </a>
+				<a class="navbar-link" href="/Sections/politics/index.aspx">राजनीति </a>
+				<a class="navbar-link" href="/Sections/opinion/index.aspx">राय </a>
+				<a class="navbar-link" href="/Sections/science/index.aspx">विज्ञान </a>
+				<a class="navbar-link" href="/Sections/health/index.aspx">स्वास्थ्य</a>
+				<a class="navbar-link" href="/Sections/style/index.aspx">अंदाज </a>
+				<a class="navbar-link" href="/Sections/travel/index.aspx">यात्रा </a>
+			</nav>
+		</nav>
+	</header>
+
+	<div class="container-fluid">
+		<div class="row flex-xl-nowrap">
+			<div class="col-md-3 col-xl-2 bd-sidebar">
+				<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+					<div class="sidebar-sticky">
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a class="nav-link active" href="/index.aspx">
+									<span data-feather="home"></span>
+									Dashboard <span class="sr-only">(current)</span>
+								</a>
+							</li>
+						</ul>
+
+						<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+							<span>Saved reports</span>
+							<a class="d-flex align-items-center text-muted" href="#">
+								<span data-feather="plus-circle"></span>
+							</a>
+						</h6>
+						<ul class="nav flex-column mb-2">
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+				<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+					<div>
+						<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+						</asp:ContentPlaceHolder>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="wwwroot/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+
+	<!-- Graphs -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Administrator\Desktop\Dep</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Autofac.dll">
+      <publishTime>05/07/2014 16:24:26</publishTime>
+    </File>
+    <File Include="bin/Autofac.Integration.Web.dll">
+      <publishTime>05/07/2014 16:24:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/16/2020 20:38:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/16/2020 20:38:46</publishTime>
+    </File>
+    <File Include="bin/Hma.Core.dll">
+      <publishTime>08/08/2020 11:57:21</publishTime>
+    </File>
+    <File Include="bin/Hma.Core.dll.config">
+      <publishTime>08/08/2020 11:56:32</publishTime>
+    </File>
+    <File Include="bin/Hma.Core.pdb">
+      <publishTime>08/08/2020 11:57:21</publishTime>
+    </File>
+    <File Include="bin/Hma.dll">
+      <publishTime>08/08/2020 13:17:46</publishTime>
+    </File>
+    <File Include="bin/Hma.Infra.dll">
+      <publishTime>08/08/2020 13:02:24</publishTime>
+    </File>
+    <File Include="bin/Hma.Infra.dll.config">
+      <publishTime>08/08/2020 11:50:07</publishTime>
+    </File>
+    <File Include="bin/Hma.Infra.pdb">
+      <publishTime>08/08/2020 13:02:24</publishTime>
+    </File>
+    <File Include="bin/Hma.pdb">
+      <publishTime>08/08/2020 13:17:46</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/08/2020 10:47:49</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>08/08/2020 12:54:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/08/2020 13:17:46</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

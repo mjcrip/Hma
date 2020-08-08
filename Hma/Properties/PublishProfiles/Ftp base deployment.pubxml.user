@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2IxD4QuDUUaH4KHw7uE2cwAAAAACAAAAAAAQZgAAAAEAACAAAABXjtgkwVPKDmJkzaYnalruQUH3Sj5GAQJomdVL0yyeIQAAAAAOgAAAAAIAACAAAADaq74ywjl1c34oHiEfi2bwQcCllgzci9ZsdAnsLdJRqyAAAAANKHEQk0RNbz4bHGKthf+8tQQNQshE3gKbsMwFqrZACUAAAAAU2ukLXg35ATstcjNGOU5hemlPdnTHxU2VrEGzcDe7DMsIExh5lQ5AkMJVJwQQtkiZzuSWp/8S8DfE58lhhslL</EncryptedPassword>
+    <_PublishTargetUrl>ftp://www.hindimeanswer.com/httpdocs</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Autofac.dll">
+      <publishTime>05/07/2014 16:24:26</publishTime>
+    </File>
+    <File Include="bin/Autofac.Integration.Web.dll">
+      <publishTime>05/07/2014 16:24:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>12/11/2013 14:24:02</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>12/11/2013 14:24:02</publishTime>
+    </File>
+    <File Include="bin/Hma.Core.dll">
+      <publishTime>08/08/2020 16:19:54</publishTime>
+    </File>
+    <File Include="bin/Hma.Core.dll.config">
+      <publishTime>08/08/2020 14:57:35</publishTime>
+    </File>
+    <File Include="bin/Hma.Core.pdb">
+      <publishTime>08/08/2020 16:19:54</publishTime>
+    </File>
+    <File Include="bin/Hma.dll">
+      <publishTime>08/08/2020 17:31:51</publishTime>
+    </File>
+    <File Include="bin/Hma.Infra.dll">
+      <publishTime>08/08/2020 16:31:26</publishTime>
+    </File>
+    <File Include="bin/Hma.Infra.dll.config">
+      <publishTime>08/08/2020 16:28:04</publishTime>
+    </File>
+    <File Include="bin/Hma.Infra.pdb">
+      <publishTime>08/08/2020 16:31:26</publishTime>
+    </File>
+    <File Include="bin/Hma.pdb">
+      <publishTime>08/08/2020 17:31:51</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/08/2020 10:47:49</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>08/08/2020 17:30:30</publishTime>
+    </File>
+    <File Include="Sections/Business/Index.aspx">
+      <publishTime>08/08/2020 17:23:47</publishTime>
+    </File>
+    <File Include="Sections/Culture/Index.aspx">
+      <publishTime>08/08/2020 17:23:47</publishTime>
+    </File>
+    <File Include="Sections/Design/Index.aspx">
+      <publishTime>08/08/2020 17:23:47</publishTime>
+    </File>
+    <File Include="Sections/Health/Index.aspx">
+      <publishTime>08/08/2020 17:23:46</publishTime>
+    </File>
+    <File Include="Sections/India/Index.aspx">
+      <publishTime>08/08/2020 17:23:46</publishTime>
+    </File>
+    <File Include="Sections/Opinion/Index.aspx">
+      <publishTime>08/08/2020 17:23:46</publishTime>
+    </File>
+    <File Include="Sections/Politics/Index.aspx">
+      <publishTime>08/08/2020 17:23:46</publishTime>
+    </File>
+    <File Include="Sections/Science/Index.aspx">
+      <publishTime>08/08/2020 17:23:46</publishTime>
+    </File>
+    <File Include="Sections/Style/Index.aspx">
+      <publishTime>08/08/2020 17:23:45</publishTime>
+    </File>
+    <File Include="Sections/Technology/Index.aspx">
+      <publishTime>08/08/2020 17:23:45</publishTime>
+    </File>
+    <File Include="Sections/Travel/Index.aspx">
+      <publishTime>08/08/2020 17:23:45</publishTime>
+    </File>
+    <File Include="Sections/World/Index.aspx">
+      <publishTime>08/08/2020 17:23:45</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>08/08/2020 17:28:10</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/08/2020 16:36:20</publishTime>
+    </File>
+    <File Include="wwwroot/css/blog.css">
+      <publishTime>08/08/2020 16:46:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap-grid.css">
+      <publishTime>08/08/2020 16:46:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap-grid.css.map">
+      <publishTime>08/08/2020 16:46:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap-grid.min.css">
+      <publishTime>08/08/2020 16:46:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap-grid.min.css.map">
+      <publishTime>08/08/2020 16:46:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap-reboot.css">
+      <publishTime>08/08/2020 16:46:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap-reboot.css.map">
+      <publishTime>08/08/2020 16:46:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap-reboot.min.css">
+      <publishTime>08/08/2020 16:46:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap-reboot.min.css.map">
+      <publishTime>08/08/2020 16:46:24</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.css">
+      <publishTime>08/08/2020 16:46:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.css.map">
+      <publishTime>08/08/2020 16:46:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.min.css">
+      <publishTime>08/08/2020 16:46:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.min.css.map">
+      <publishTime>08/08/2020 16:46:23</publishTime>
+    </File>
+    <File Include="wwwroot/css/dashboard.css">
+      <publishTime>08/08/2020 16:46:24</publishTime>
+    </File>
+    <File Include="wwwroot/images/hma.png">
+      <publishTime>08/08/2020 16:46:36</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.bundle.js">
+      <publishTime>08/08/2020 16:46:49</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.bundle.js.map">
+      <publishTime>08/08/2020 16:46:49</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.bundle.min.js">
+      <publishTime>08/08/2020 16:46:49</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.bundle.min.js.map">
+      <publishTime>08/08/2020 16:46:49</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.js">
+      <publishTime>08/08/2020 16:46:49</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.js.map">
+      <publishTime>08/08/2020 16:46:49</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.min.js">
+      <publishTime>08/08/2020 16:46:49</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.min.js.map">
+      <publishTime>08/08/2020 16:46:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
