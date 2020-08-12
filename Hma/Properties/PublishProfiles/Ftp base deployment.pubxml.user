@@ -170,28 +170,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/11/2013 14:24:02</publishTime>
     </File>
     <File Include="bin/Hma.Core.dll">
-      <publishTime>08/10/2020 10:10:31</publishTime>
+      <publishTime>08/12/2020 10:10:55</publishTime>
     </File>
     <File Include="bin/Hma.Core.dll.config">
-      <publishTime>08/08/2020 14:57:35</publishTime>
+      <publishTime>08/11/2020 10:57:38</publishTime>
     </File>
     <File Include="bin/Hma.Core.pdb">
-      <publishTime>08/10/2020 10:10:31</publishTime>
+      <publishTime>08/12/2020 10:10:55</publishTime>
     </File>
     <File Include="bin/Hma.dll">
-      <publishTime>08/10/2020 10:10:34</publishTime>
+      <publishTime>08/12/2020 10:10:58</publishTime>
     </File>
     <File Include="bin/Hma.Infra.dll">
-      <publishTime>08/10/2020 10:10:32</publishTime>
+      <publishTime>08/12/2020 10:10:56</publishTime>
     </File>
     <File Include="bin/Hma.Infra.dll.config">
       <publishTime>08/08/2020 16:28:04</publishTime>
     </File>
     <File Include="bin/Hma.Infra.pdb">
-      <publishTime>08/10/2020 10:10:32</publishTime>
+      <publishTime>08/12/2020 10:10:56</publishTime>
     </File>
     <File Include="bin/Hma.pdb">
-      <publishTime>08/10/2020 10:10:34</publishTime>
+      <publishTime>08/12/2020 10:10:58</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>08/08/2020 10:47:49</publishTime>

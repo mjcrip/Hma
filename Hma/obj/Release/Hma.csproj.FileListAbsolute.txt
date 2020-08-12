@@ -40,3 +40,4 @@ C:\Users\Administrator\source\repos\Hma\Hma\obj\Release\Hma.csproj.CoreCompileIn
 C:\Users\Administrator\source\repos\Hma\Hma\obj\Release\Hma.csproj.CopyComplete
 C:\Users\Administrator\source\repos\Hma\Hma\obj\Release\Hma.dll
 C:\Users\Administrator\source\repos\Hma\Hma\obj\Release\Hma.pdb
+C:\Users\Administrator\source\repos\Hma\Hma\bin\Hma.Core.dll.config

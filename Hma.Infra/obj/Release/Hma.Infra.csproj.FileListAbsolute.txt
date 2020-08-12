@@ -28,3 +28,6 @@ C:\Users\Administrator\source\repos\Hma\Hma.Infra\obj\Release\Hma.Infra.csproj.C
 C:\Users\Administrator\source\repos\Hma\Hma.Infra\obj\Release\Hma.Infra.csproj.CopyComplete
 C:\Users\Administrator\source\repos\Hma\Hma.Infra\obj\Release\Hma.Infra.dll
 C:\Users\Administrator\source\repos\Hma\Hma.Infra\obj\Release\Hma.Infra.pdb
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\bin\Release\Hma.Core.dll.config
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\obj\Release\Hma.Infra.Migrations.InitialCreate.resources
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\obj\Release\Hma.Infra.csproj.GenerateResource.cache
