@@ -17,5 +17,8 @@ namespace Hma.Infra.Domains.BloggingContext
 		}
 
 		public DbSet<Article> Articles { get; set; }
+		public DbSet<Author> Author { get; set; }
+		public DbSet<Person> People { get; set; }
+		public DbSet<Contact> Contacts { get; set; }
 	}
 }

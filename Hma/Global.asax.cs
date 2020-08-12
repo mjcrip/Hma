@@ -23,7 +23,8 @@ namespace Hma
 		{
 			// Build up your application container and register your dependencies.
 			var builder = new ContainerBuilder();
-			builder.RegisterType<BloggingService>();
+			builder.RegisterType<BloggingService>().InstancePerLifetimeScope();
+			builder.RegisterType<HtmlGeneratorService>().InstancePerLifetimeScope();
 			builder.RegisterType<BloggingContext>().InstancePerLifetimeScope();
 			builder.RegisterType<BaseContextRepository<BloggingContext>>().As<IEntityContextRepository<IEntityContext>>().InstancePerLifetimeScope();
 			// ... continue registering dependencies...

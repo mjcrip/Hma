@@ -72,6 +72,32 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\animate.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\font.css" />
+    <Content Include="assets\css\img\arrow_icon.png" />
+    <Content Include="assets\css\img\btn_search.png" />
+    <Content Include="assets\css\img\status.gif" />
+    <Content Include="assets\css\structure.css" />
+    <Content Include="assets\fonts\Eddie.svg" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\html5shiv.min.js" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\respond.min.js" />
+    <Content Include="assets\js\wow.min.js" />
+    <Content Include="images\100x100.jpg" />
+    <Content Include="images\addbanner_728x90_V1.jpg" />
+    <Content Include="images\arrow_icon_yellow.png" />
+    <Content Include="images\featured_img1.jpg" />
+    <Content Include="images\hot_img1.jpg" />
+    <Content Include="images\hot_img2.jpg" />
+    <Content Include="images\singlepage_img1.jpg" />
+    <Content Include="images\stuff_img1.jpg" />
+    <Content Include="pages\single.html" />
     <Content Include="Sections\Business\Index.aspx" />
     <Content Include="Sections\Culture\Index.aspx" />
     <Content Include="Sections\Design\Index.aspx" />
@@ -79,16 +105,23 @@
     <Content Include="Sections\India\Index.aspx" />
     <Content Include="Sections\Opinion\Index.aspx" />
     <Content Include="Sections\Politics\Index.aspx" />
+    <Content Include="Sections\Sample\SinglePost.html" />
     <Content Include="Sections\Science\Index.aspx" />
     <Content Include="Sections\Style\Index.aspx" />
     <Content Include="Sections\Technology\Index.aspx" />
     <Content Include="Sections\Travel\Index.aspx" />
     <Content Include="Sections\World\Index.aspx" />
-    <Content Include="wwwroot\images\hma.png" />
-    <Content Include="wwwroot\js\bootstrap.bundle.js" />
-    <Content Include="wwwroot\js\bootstrap.bundle.min.js" />
-    <Content Include="wwwroot\js\bootstrap.js" />
-    <Content Include="wwwroot\js\bootstrap.min.js" />
+    <Content Include="assets\fonts\Eddie.eot" />
+    <Content Include="assets\fonts\Eddie.ttf" />
+    <Content Include="assets\fonts\Eddie.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\Varela-400.woff" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\Ftp base deployment.pubxml" />
@@ -100,29 +133,11 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <Content Include="wwwroot\css\bootstrap-grid.css.map" />
-    <Content Include="wwwroot\css\bootstrap-grid.min.css.map" />
-    <Content Include="wwwroot\css\bootstrap-reboot.css.map" />
-    <Content Include="wwwroot\css\bootstrap-reboot.min.css.map" />
-    <Content Include="wwwroot\css\bootstrap.css.map" />
-    <Content Include="wwwroot\css\bootstrap.min.css.map" />
-    <Content Include="wwwroot\js\bootstrap.bundle.js.map" />
-    <Content Include="wwwroot\js\bootstrap.bundle.min.js.map" />
-    <Content Include="wwwroot\js\bootstrap.js.map" />
-    <Content Include="wwwroot\js\bootstrap.min.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Index.aspx" />
     <Content Include="Web.config" />
-    <Content Include="wwwroot\css\blog.css" />
-    <Content Include="wwwroot\css\bootstrap-grid.css" />
-    <Content Include="wwwroot\css\bootstrap-grid.min.css" />
-    <Content Include="wwwroot\css\bootstrap-reboot.css" />
-    <Content Include="wwwroot\css\bootstrap-reboot.min.css" />
-    <Content Include="wwwroot\css\bootstrap.css" />
-    <Content Include="wwwroot\css\bootstrap.min.css" />
-    <Content Include="wwwroot\css\dashboard.css" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">

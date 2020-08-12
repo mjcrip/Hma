@@ -1,92 +1,245 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Hma.Site" %>
 
 <!DOCTYPE html>
-
 <html>
-<head runat="server">
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<meta name="description" content="" />
-	<meta name="author" content="" />
-	<link rel="icon" href="hma.png" />
-	<title>Hindi Me Answer</title>
-	<!-- Bootstrap core CSS -->
-	<link href="wwwroot/css/bootstrap.min.css" rel="stylesheet" />
-	<!-- Custom styles for this template -->
-	<link href="wwwroot/css/dashboard.css" rel="stylesheet" />
-	<link href="wwwroot/css/blog.css" rel="stylesheet" />
-	<%--<asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>--%>
+<head>
+	<title>ColorMag</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/css/font.css">
+	<link rel="stylesheet" href="/assets/css/animate.css">
+	<link rel="stylesheet" href="/assets/css/structure.css">
 </head>
 <body>
-	<header>
-		<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-			<a class="navbar-brand col-sm-3 col-md-2 mr-0" href="/index.aspx">हिंदी में Answer.com</a>
-			<nav class="nav d-flex justify-content-between">
-				<a class="navbar-link" href="/Sections/world/index.aspx">दुनिया </a>
-				<a class="navbar-link" href="/Sections/india/index.aspx">भारत </a>
-				<a class="navbar-link" href="/Sections/technology/index.aspx">प्रौद्योगिकी </a>
-				<a class="navbar-link" href="/Sections/design/index.aspx">डिज़ाइन </a>
-				<a class="navbar-link" href="/Sections/culture/index.aspx">संस्कृति </a>
-				<a class="navbar-link" href="/Sections/business/index.aspx">व्यापार </a>
-				<a class="navbar-link" href="/Sections/politics/index.aspx">राजनीति </a>
-				<a class="navbar-link" href="/Sections/opinion/index.aspx">राय </a>
-				<a class="navbar-link" href="/Sections/science/index.aspx">विज्ञान </a>
-				<a class="navbar-link" href="/Sections/health/index.aspx">स्वास्थ्य</a>
-				<a class="navbar-link" href="/Sections/style/index.aspx">अंदाज </a>
-				<a class="navbar-link" href="/Sections/travel/index.aspx">यात्रा </a>
-			</nav>
-		</nav>
-	</header>
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+	<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 
-	<div class="container-fluid">
-		<div class="row flex-xl-nowrap">
-			<div class="col-md-3 col-xl-2 bd-sidebar">
-				<nav class="col-md-2 d-none d-md-block bg-light sidebar">
-					<div class="sidebar-sticky">
-						<ul class="nav flex-column">
-							<li class="nav-item">
-								<a class="nav-link active" href="/index.aspx">
-									<span data-feather="home"></span>
-									Dashboard <span class="sr-only">(current)</span>
-								</a>
-							</li>
-						</ul>
-
-						<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-							<span>Saved reports</span>
-							<a class="d-flex align-items-center text-muted" href="#">
-								<span data-feather="plus-circle"></span>
-							</a>
-						</h6>
-						<ul class="nav flex-column mb-2">
-						</ul>
+	<header id="header">
+		<div class="container">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+						<a class="navbar-brand" href="index.html"><span>Color</span>Mag</a>
 					</div>
-				</nav>
-			</div>
-			<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-				<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-					<div>
-						<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-						</asp:ContentPlaceHolder>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav custom_nav">
+							<li class=""><a href="index.html">Home</a></li>
+							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Jobs</a>
+								<ul class="dropdown-menu" role="menu">
+									<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#">Jobs Home</a> </li>
+									<li><a href="#">Faq</a></li>
+									<li><a href="#">Home</a></li>
+									<li><a href="#">Article</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Features</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Standard Blog Layout</a></li>
+									<li><a href="#">Post With Comments</a></li>
+									<li><a href="#">Page:Right Sidebar</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Shortcodes</a></li>
+							<li><a href="#">Archive</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Download Template</a></li>
+						</ul>
 					</div>
 				</div>
-			</main>
+			</nav>
+			<form id="searchForm">
+				<input type="text" placeholder="Search...">
+				<input type="submit" value="">
+			</form>
 		</div>
-	</div>
+	</header>
 
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="wwwroot/js/bootstrap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+	<section id="contentbody">
+		<div class="container">
+			<div class="row">
+				<asp:ContentPlaceHolder ID="TheNewStuff" runat="server">
+					<div class=" col-sm-12 col-md-6 col-lg-6">
+						<div class="row">
+							<div class="leftbar_content">
+								<h2>The New Stuff</h2>
+								<div class="single_stuff wow fadeInDown">
+									<div class="single_stuff_img"><a href="pages/single.html">
+										<img src="images/stuff_img1.jpg" alt=""></a> </div>
+									<div class="single_stuff_article">
+										<div class="single_sarticle_inner">
+											<a class="stuff_category" href="#">Technology</a>
+											<div class="stuff_article_inner">
+												<span class="stuff_date">Nov <strong>17</strong></span>
+												<h2><a href="pages/single.html">Duis quis erat non nunc fringilla</a></h2>
+												<p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula...</p>
+											</div>
+										</div>
+									</div>
+								</div>
 
-	<!-- Graphs -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+								<div class="single_stuff wow fadeInDown">
+									<div class="single_stuff_img"><a href="#">
+										<img src="images/stuff_img1.jpg" alt=""></a> </div>
+									<div class="single_stuff_article">
+										<div class="single_sarticle_inner">
+											<a class="stuff_category" href="#">Technology</a>
+											<div class="stuff_article_inner">
+												<span class="stuff_date">Nov <strong>17</strong></span>
+												<h2><a href="#">Duis quis erat non nunc fringilla</a></h2>
+												<p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula...</p>
+											</div>
+										</div>
+									</div>
+								</div>
 
+								<div class="single_stuff wow fadeInDown">
+									<div class="single_stuff_img"><a href="#">
+										<img src="images/stuff_img1.jpg" alt=""></a> </div>
+									<div class="single_stuff_article">
+										<div class="single_sarticle_inner">
+											<a class="stuff_category" href="#">Technology</a>
+											<div class="stuff_article_inner">
+												<span class="stuff_date">Nov <strong>17</strong></span>
+												<h2><a href="#">Duis quis erat non nunc fringilla</a></h2>
+												<p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula...</p>
+											</div>
+										</div>
+									</div>
+								</div>
 
+								<div class="stuffpost_paginatinonarea wow slideInLeft">
+									<ul class="newstuff_pagnav">
+										<li><a class="active_page" href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</asp:ContentPlaceHolder>
 
+				<div class="col-sm-6 col-md-2 col-lg-2">
+					<div class="row">
+						<div class="middlebar_content">
+							<h2 class="yellow_bg">What's Hot</h2>
+
+							<div class="middlebar_content_inner wow fadeInUp">
+								<ul class="middlebar_nav">
+									<li><a class="mbar_thubnail" href="#">
+										<img src="images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
+									<li><a class="mbar_thubnail" href="#">
+										<img src="images/hot_img2.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
+									<li><a class="mbar_thubnail" href="#">
+										<img src="images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
+									<li><a class="mbar_thubnail" href="#">
+										<img src="images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
+									<li><a class="mbar_thubnail" href="#">
+										<img src="images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
+									<li><a class="mbar_thubnail" href="#">
+										<img src="images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
+									<li><a class="mbar_thubnail" href="#">
+										<img src="images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
+									<li><a class="mbar_thubnail" href="#">
+										<img src="images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
+								</ul>
+							</div>
+
+							<div class="popular_categori  wow fadeInUp">
+								<h2 class="limeblue_bg">Most Popular Categories</h2>
+								<ul class="poplr_catgnva">
+									<li><a href="#">Business</a></li>
+									<li><a href="#">Gallery</a></li>
+									<li><a href="#">Life &amp; Style</a></li>
+									<li><a href="#">Games</a></li>
+									<li><a href="#">Slider</a></li>
+									<li><a href="#">Sports</a></li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="row">
+						<div class="rightbar_content">
+							<div class="single_blog_sidebar wow fadeInUp">
+								<h2>The Featured Stuff</h2>
+								<ul class="featured_nav">
+									<li><a class="featured_img" href="#">
+										<img src="images/featured_img1.jpg" alt=""></a>
+										<div class="featured_title"><a class="" href="#">Sed luctus semper odio aliquam rhoncus</a> </div>
+									</li>
+									<li><a class="featured_img" href="#">
+										<img src="images/featured_img1.jpg" alt=""></a>
+										<div class="featured_title"><a class="" href="#">Sed luctus semper odio aliquam rhoncus</a> </div>
+									</li>
+									<li><a class="featured_img" href="#">
+										<img src="images/featured_img1.jpg" alt=""></a>
+										<div class="featured_title"><a class="" href="#">Sed luctus semper odio aliquam rhoncus</a> </div>
+									</li>
+								</ul>
+							</div>
+							<div class="single_blog_sidebar wow fadeInUp">
+								<h2>Popular Posts</h2>
+								<ul class="middlebar_nav wow">
+									<li><a href="#" class="mbar_thubnail">
+										<img alt="" src="images/hot_img1.jpg"></a> <a href="#" class="mbar_title">Sed luctus semper odio aliquam rhoncus</a> </li>
+									<li><a href="#" class="mbar_thubnail">
+										<img alt="" src="images/hot_img2.jpg"></a> <a href="#" class="mbar_title">Sed luctus semper odio aliquam rhoncus</a> </li>
+									<li><a href="#" class="mbar_thubnail">
+										<img alt="" src="images/hot_img1.jpg"></a> <a href="#" class="mbar_title">Sed luctus semper odio aliquam rhoncus</a> </li>
+									<li><a href="#" class="mbar_thubnail">
+										<img alt="" src="images/hot_img1.jpg"></a> <a href="#" class="mbar_title">Sed luctus semper odio aliquam rhoncus</a> </li>
+								</ul>
+							</div>
+							<div class="single_blog_sidebar wow fadeInUp">
+								<h2>Popular Tags</h2>
+								<ul class="poplr_tagnav">
+									<li><a href="#">Arts</a></li>
+									<li><a href="#">Games</a></li>
+									<li><a href="#">Nature</a></li>
+									<li><a href="#">Comedy</a></li>
+									<li><a href="#">Sports</a></li>
+									<li><a href="#">Tourism</a></li>
+									<li><a href="#">Videos</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="footer_inner">
+						<p class="pull-left">Copyright &copy; 2014 ColorMag</p>
+						<p class="pull-right">Developed By WpFreeware</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/wow.min.js"></script>
+	<script src="/assets/js/custom.js"></script>
 </body>
 </html>
+
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+

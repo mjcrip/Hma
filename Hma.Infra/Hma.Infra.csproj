@@ -50,9 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Domains\BloggingContext\BloggingContext.cs" />
-    <Compile Include="Migrations\202008081059594_InitiaCreate.cs" />
-    <Compile Include="Migrations\202008081059594_InitiaCreate.Designer.cs">
-      <DependentUpon>202008081059594_InitiaCreate.cs</DependentUpon>
+    <Compile Include="Migrations\202008110531365_InitialCreate.cs" />
+    <Compile Include="Migrations\202008110531365_InitialCreate.Designer.cs">
+      <DependentUpon>202008110531365_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,8 +71,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202008081059594_InitiaCreate.resx">
-      <DependentUpon>202008081059594_InitiaCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202008110531365_InitialCreate.resx">
+      <DependentUpon>202008110531365_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -4,3 +4,9 @@ C:\Users\Administrator\source\repos\Hma.Core\obj\Release\Hma.Core.csproj.CoreCom
 C:\Users\Administrator\source\repos\Hma.Core\obj\Release\Hma.Core.dll
 C:\Users\Administrator\source\repos\Hma.Core\obj\Release\Hma.Core.pdb
 C:\Users\Administrator\source\repos\Hma.Core\obj\Release\Hma.Core.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Hma\Hma.Core\bin\Release\Hma.Core.dll
+C:\Users\Administrator\source\repos\Hma\Hma.Core\bin\Release\Hma.Core.pdb
+C:\Users\Administrator\source\repos\Hma\Hma.Core\obj\Release\Hma.Core.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Hma\Hma.Core\obj\Release\Hma.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Hma\Hma.Core\obj\Release\Hma.Core.dll
+C:\Users\Administrator\source\repos\Hma\Hma.Core\obj\Release\Hma.Core.pdb

@@ -10,6 +10,153 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>ftp://www.hindimeanswer.com/httpdocs</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="Assets/css/animate.css">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/css/bootstrap.min.css">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/css/font-awesome.min.css">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/css/font.css">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/css/images/blank.gif">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/images/fancybox_loading%402x.gif">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/images/fancybox_loading.gif">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/images/fancybox_overlay.png">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/images/fancybox_sprite%402x.png">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/images/fancybox_sprite.png">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/images/slider_next.png">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/images/slider_prev.png">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/images/socials.png">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/images/status.gif">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/img/arrow_icon.png">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/css/img/btn_search.png">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/css/img/status.gif">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/css/jquery.fancybox.css">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/li-scroller.css">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/slick.css">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/structure.css">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/css/style.css">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/css/theme.css">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/fonts/Eddie.eot">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/Eddie.svg">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/Eddie.ttf">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/Eddie.woff">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/fontawesome-webfont.eot">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/fontawesome-webfont.svg">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/fontawesome-webfont.woff">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/FontAwesome.otf">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/fonts/OpenSans-400.woff">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/fonts/Oswald-Regular-400.woff">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/fonts/Varela-400.woff">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/js/bootstrap.min.js">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/js/custom.js">
+      <publishTime>08/10/2020 08:38:23</publishTime>
+    </File>
+    <File Include="Assets/js/html5shiv.min.js">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/js/jquery.fancybox.pack.js">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/js/jquery.li-scroller.1.0.js">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/js/jquery.min.js">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/js/jquery.newsTicker.min.js">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/js/respond.min.js">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Assets/js/slick.min.js">
+      <publishTime>08/08/2020 22:31:04</publishTime>
+    </File>
+    <File Include="Assets/js/wow.min.js">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
     <File Include="bin/Autofac.dll">
       <publishTime>05/07/2014 16:24:26</publishTime>
     </File>
@@ -23,34 +170,118 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/11/2013 14:24:02</publishTime>
     </File>
     <File Include="bin/Hma.Core.dll">
-      <publishTime>08/08/2020 16:19:54</publishTime>
+      <publishTime>08/10/2020 10:10:31</publishTime>
     </File>
     <File Include="bin/Hma.Core.dll.config">
       <publishTime>08/08/2020 14:57:35</publishTime>
     </File>
     <File Include="bin/Hma.Core.pdb">
-      <publishTime>08/08/2020 16:19:54</publishTime>
+      <publishTime>08/10/2020 10:10:31</publishTime>
     </File>
     <File Include="bin/Hma.dll">
-      <publishTime>08/08/2020 17:31:51</publishTime>
+      <publishTime>08/10/2020 10:10:34</publishTime>
     </File>
     <File Include="bin/Hma.Infra.dll">
-      <publishTime>08/08/2020 16:31:26</publishTime>
+      <publishTime>08/10/2020 10:10:32</publishTime>
     </File>
     <File Include="bin/Hma.Infra.dll.config">
       <publishTime>08/08/2020 16:28:04</publishTime>
     </File>
     <File Include="bin/Hma.Infra.pdb">
-      <publishTime>08/08/2020 16:31:26</publishTime>
+      <publishTime>08/10/2020 10:10:32</publishTime>
     </File>
     <File Include="bin/Hma.pdb">
-      <publishTime>08/08/2020 17:31:51</publishTime>
+      <publishTime>08/10/2020 10:10:34</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>08/08/2020 10:47:49</publishTime>
     </File>
+    <File Include="Images/100x100.jpg">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Images/addbanner_728x90_V1.jpg">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Images/add_img.jpg">
+      <publishTime>08/08/2020 22:31:50</publishTime>
+    </File>
+    <File Include="Images/arrow_icon_yellow.png">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Images/featured_img1.jpg">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Images/featured_img2.jpg">
+      <publishTime>08/08/2020 22:31:49</publishTime>
+    </File>
+    <File Include="Images/featured_img3.jpg">
+      <publishTime>08/08/2020 22:31:49</publishTime>
+    </File>
+    <File Include="Images/hot_img1.jpg">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Images/hot_img2.jpg">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Images/logo.jpg">
+      <publishTime>08/08/2020 22:31:49</publishTime>
+    </File>
+    <File Include="Images/news_thumbnail2.jpg">
+      <publishTime>08/08/2020 22:31:49</publishTime>
+    </File>
+    <File Include="Images/news_thumbnail3.jpg">
+      <publishTime>08/08/2020 22:31:49</publishTime>
+    </File>
+    <File Include="Images/photograph_img2.jpg">
+      <publishTime>08/08/2020 22:31:49</publishTime>
+    </File>
+    <File Include="Images/photograph_img3.jpg">
+      <publishTime>08/08/2020 22:31:49</publishTime>
+    </File>
+    <File Include="Images/photograph_img4.jpg">
+      <publishTime>08/08/2020 22:31:49</publishTime>
+    </File>
+    <File Include="Images/post_img1.jpg">
+      <publishTime>08/08/2020 22:31:50</publishTime>
+    </File>
+    <File Include="Images/post_img2.jpg">
+      <publishTime>08/08/2020 22:31:50</publishTime>
+    </File>
+    <File Include="Images/singlepage_img1.jpg">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
+    <File Include="Images/single_post_img.jpg">
+      <publishTime>08/08/2020 22:31:50</publishTime>
+    </File>
+    <File Include="Images/slider_img1.jpg">
+      <publishTime>08/08/2020 22:31:50</publishTime>
+    </File>
+    <File Include="Images/slider_img2.jpg">
+      <publishTime>08/08/2020 22:31:50</publishTime>
+    </File>
+    <File Include="Images/slider_img3.jpg">
+      <publishTime>08/08/2020 22:31:50</publishTime>
+    </File>
+    <File Include="Images/slider_img4.jpg">
+      <publishTime>08/08/2020 22:31:50</publishTime>
+    </File>
+    <File Include="Images/stuff_img1.jpg">
+      <publishTime>08/09/2020 08:38:39</publishTime>
+    </File>
     <File Include="Index.aspx">
-      <publishTime>08/08/2020 17:30:30</publishTime>
+      <publishTime>08/09/2020 08:45:47</publishTime>
+    </File>
+    <File Include="Pages/404.html">
+      <publishTime>08/08/2020 22:32:15</publishTime>
+    </File>
+    <File Include="Pages/contact.html">
+      <publishTime>08/08/2020 22:32:15</publishTime>
+    </File>
+    <File Include="Pages/single.html">
+      <publishTime>08/09/2020 22:49:23</publishTime>
+    </File>
+    <File Include="Pages/single_page.html">
+      <publishTime>08/08/2020 22:32:15</publishTime>
     </File>
     <File Include="Sections/Business/Index.aspx">
       <publishTime>08/08/2020 17:23:47</publishTime>
@@ -73,6 +304,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Sections/Politics/Index.aspx">
       <publishTime>08/08/2020 17:23:46</publishTime>
     </File>
+    <File Include="Sections/Sample/SinglePost.html">
+      <publishTime>08/09/2020 23:20:44</publishTime>
+    </File>
     <File Include="Sections/Science/Index.aspx">
       <publishTime>08/08/2020 17:23:46</publishTime>
     </File>
@@ -89,10 +323,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/08/2020 17:23:45</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>08/08/2020 17:28:10</publishTime>
+      <publishTime>08/09/2020 09:01:00</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/08/2020 16:36:20</publishTime>
+      <publishTime>08/08/2020 22:52:22</publishTime>
     </File>
     <File Include="wwwroot/css/blog.css">
       <publishTime>08/08/2020 16:46:23</publishTime>
@@ -135,6 +369,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="wwwroot/css/dashboard.css">
       <publishTime>08/08/2020 16:46:24</publishTime>
+    </File>
+    <File Include="wwwroot/images/Dashboard/alessio.jpg">
+      <publishTime>08/08/2020 21:23:31</publishTime>
+    </File>
+    <File Include="wwwroot/images/Dashboard/brian.jpg">
+      <publishTime>08/08/2020 21:24:50</publishTime>
+    </File>
+    <File Include="wwwroot/images/Dashboard/mnz.jpg">
+      <publishTime>08/08/2020 21:24:50</publishTime>
     </File>
     <File Include="wwwroot/images/hma.png">
       <publishTime>08/08/2020 16:46:36</publishTime>

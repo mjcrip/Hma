@@ -68,5 +68,10 @@ namespace Hma.Infra.Repositories
         {
             return _db.SaveChanges();
         }
+
+        public void Insert<TEntity>(TEntity entity) where TEntity : BaseEntity
+        {
+            _db.Set<TEntity>().Add(entity);
+        }
     }
 }

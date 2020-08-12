@@ -14,3 +14,17 @@ C:\Users\Administrator\source\repos\Hma.Infra\bin\Release\EntityFramework.SqlSer
 C:\Users\Administrator\source\repos\Hma.Infra\bin\Release\EntityFramework.SqlServer.xml
 C:\Users\Administrator\source\repos\Hma.Infra\obj\Release\Hma.Infra.Migrations.InitiaCreate.resources
 C:\Users\Administrator\source\repos\Hma.Infra\obj\Release\Hma.Infra.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\bin\Release\Hma.Infra.dll.config
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\bin\Release\Hma.Infra.dll
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\bin\Release\Hma.Infra.pdb
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\bin\Release\EntityFramework.dll
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\bin\Release\Hma.Core.dll
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\bin\Release\Hma.Core.pdb
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\bin\Release\EntityFramework.xml
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\obj\Release\Hma.Infra.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\obj\Release\Hma.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\obj\Release\Hma.Infra.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\obj\Release\Hma.Infra.dll
+C:\Users\Administrator\source\repos\Hma\Hma.Infra\obj\Release\Hma.Infra.pdb

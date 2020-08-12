@@ -13,5 +13,6 @@ namespace Hma.Core.Interfaces
         IQueryable<TEntity> GetNoTrackingQueryableWithDeleted<TEntity>(List<string> includes = null) where TEntity : BaseEntity;
         ContextNames Name { get; }
         void ExecuteSqlQuery(string sql, params string[] parameters);
+        void Insert<TEntity>(TEntity entity) where TEntity : BaseEntity;
     }
 }
