@@ -32,9 +32,9 @@ namespace Hma
 				StorePath = "demo1/demo/test.html"
 			};
 			//_bloggingService.InsertArticle(article);
-			var t = _bloggingService.GetArticles();
-			CreateFileUsingFtp(t);
-			_bloggingService.SaveChanges();
+			//var t = _bloggingService.GetArticles();
+			//CreateFileUsingFtp(t);
+			//_bloggingService.SaveChanges();
 		}
 
 		public void CreateFileUsingFtp(List<Article> articles)

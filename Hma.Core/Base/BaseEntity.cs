@@ -15,7 +15,9 @@ namespace Hma.Core.Base
 		}
 
 		[Key]
+		[ScaffoldColumn(false)]
 		public int Id { get; set; }
+		[ScaffoldColumn(false)]
 		public DateTime CreatedDate { get; set; }
 		public DateTime? ModifiedDate { get; set; }
 		public bool IsDeleted { get; set; }

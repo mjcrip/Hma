@@ -179,7 +179,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/12/2020 10:10:55</publishTime>
     </File>
     <File Include="bin/Hma.dll">
-      <publishTime>08/12/2020 10:10:58</publishTime>
+      <publishTime>08/12/2020 10:54:27</publishTime>
     </File>
     <File Include="bin/Hma.Infra.dll">
       <publishTime>08/12/2020 10:10:56</publishTime>
@@ -191,7 +191,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/12/2020 10:10:56</publishTime>
     </File>
     <File Include="bin/Hma.pdb">
-      <publishTime>08/12/2020 10:10:58</publishTime>
+      <publishTime>08/12/2020 10:54:27</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>08/08/2020 10:47:49</publishTime>

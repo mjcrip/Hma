@@ -41,3 +41,5 @@ C:\Users\Administrator\source\repos\Hma\Hma\obj\Debug\Hma.csproj.CopyComplete
 C:\Users\Administrator\source\repos\Hma\Hma\obj\Debug\Hma.dll
 C:\Users\Administrator\source\repos\Hma\Hma\obj\Debug\Hma.pdb
 C:\Users\Administrator\source\repos\Hma\Hma\bin\Hma.Core.dll.config
+C:\Users\Administrator\source\repos\Hma\Hma\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\source\repos\Hma\Hma\bin\Newtonsoft.Json.xml
