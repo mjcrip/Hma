@@ -1,4 +1,6 @@
-﻿<div class="singlepost_area">
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.master"%>
+<asp:Content ID="Content1" ContentPlaceHolderID="NewStuffContent" runat="Server">
+<div class="singlepost_area">
     <div class="singlepost_content">
         <a href="#" class="stuff_category">{Section_Name}</a> <span class="stuff_date">{Post_Month} <strong>{Post_Date}</strong></span>
         <h2><a href="#">{Post_Title}</a></h2>
@@ -26,3 +28,4 @@
         </div>
     </div>
 </div>
+</asp:Content>

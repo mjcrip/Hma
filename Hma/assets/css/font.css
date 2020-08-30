@@ -14,3 +14,11 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+    font-family: 'Ananda Namaste Regular';
+    src: url('../fonts/Ananda Namaste Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Devnew';
+    src: url('../fonts/Devnew.ttf') format('truetype');
+}

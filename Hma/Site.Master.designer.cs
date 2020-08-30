@@ -15,13 +15,13 @@ namespace Hma
 	{
 
 		/// <summary>
-		/// TheNewStuff control.
+		/// NewStuffContent control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.ContentPlaceHolder TheNewStuff;
+		protected global::System.Web.UI.WebControls.ContentPlaceHolder NewStuffContent;
 
 		/// <summary>
 		/// ContentPlaceHolder1 control.
