@@ -15,3 +15,15 @@ C:\Users\Administrator\source\repos\Hma\Hma.Core\bin\Debug\EntityFramework.SqlSe
 C:\Users\Administrator\source\repos\Hma\Hma.Core\bin\Debug\EntityFramework.xml
 C:\Users\Administrator\source\repos\Hma\Hma.Core\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Administrator\source\repos\Hma\Hma.Core\obj\Debug\Hma.Core.csproj.CopyComplete
+C:\Users\Asus\Source\Repos\mjcrip\Hma\Hma.Core\bin\Debug\Hma.Core.dll.config
+C:\Users\Asus\Source\Repos\mjcrip\Hma\Hma.Core\bin\Debug\Hma.Core.dll
+C:\Users\Asus\Source\Repos\mjcrip\Hma\Hma.Core\bin\Debug\Hma.Core.pdb
+C:\Users\Asus\Source\Repos\mjcrip\Hma\Hma.Core\bin\Debug\EntityFramework.dll
+C:\Users\Asus\Source\Repos\mjcrip\Hma\Hma.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asus\Source\Repos\mjcrip\Hma\Hma.Core\bin\Debug\EntityFramework.xml
+C:\Users\Asus\Source\Repos\mjcrip\Hma\Hma.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Asus\Source\Repos\mjcrip\Hma\Hma.Core\obj\Debug\Hma.Core.csprojAssemblyReference.cache
+C:\Users\Asus\Source\Repos\mjcrip\Hma\Hma.Core\obj\Debug\Hma.Core.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Source\Repos\mjcrip\Hma\Hma.Core\obj\Debug\Hma.Core.csproj.CopyComplete
+C:\Users\Asus\Source\Repos\mjcrip\Hma\Hma.Core\obj\Debug\Hma.Core.dll
+C:\Users\Asus\Source\Repos\mjcrip\Hma\Hma.Core\obj\Debug\Hma.Core.pdb
